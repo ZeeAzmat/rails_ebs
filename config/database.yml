@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: rails_ebs_production
-  username: rails_ebs
-  password: <%= ENV['RAILS_EBS_DATABASE_PASSWORD'] %>
+  database: rails-ebs-db
+  username: root
+  password: admin123
